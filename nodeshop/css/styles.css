@@ -56,6 +56,7 @@ p {
     width: 85%;
     float: left;
     padding: 15px 10px;
+    border-radius: 7px 0 0 7px;
 }
 
 .cabecalho button {
@@ -66,4 +67,50 @@ p {
     color: #fff;
     cursor: pointer;
     border: 1px solid #0cae98;
+    border-radius: 0 7px 7px 0;
+}
+
+/* menu */
+.menu {
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 18px 8%;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    color: #9d9d9d;
+    margin-right: 25px;
+}
+
+.menu li a:hover {
+    color: #fff;
+}
+
+/* social icons */
+
+.social-icons {
+    float: right;
+}
+
+.social-icons a {
+    color: #fff;
+    float: left;
+    margin-left: 12px;
+}
+
+.btn-facebook:hover {
+    color: #3b5998;
+}
+
+.btn-twitter:hover {
+    color: #54a4d6;
+}
+
+.btn-linkedin:hover {
+    color: #0270ad;
 }
